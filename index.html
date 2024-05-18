@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sivaprasath Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">Sivaprasath</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#hobbies">Hobbies & Interests</a></li>
+        </ul>
+        <img src="moon.png" id="icon">
+      </div>
+      <div class="extra">
+        <label>Today's Date: </label>
+        <p id="date" style="display:inline-block;"></p>
+        <script>
+          n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = d+ "-" + m + "-" + y;
+          var icon=document.getElementById("icon");
+          icon.onclick=function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+              icon.src="sun.png";
+            }else{icon.src="moon.png";
+
+            }
+            }
+        </script>
+      </div>
+    </nav>
+    
+  
+    <div class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO!</p>
+          <h1 class="title">
+            I'm <span>Sivaprasath</span> <br/>an Engineering Student
+          </h1>
+          <p class="description">
+             I am an undergraduate student in Electronics and Communication Engineering. I am a Tech enthusiast with a focus on cloud computing, app/web development, and Arduino, IoT and embedded systems. I love turning ideas into reality and thrive on challenges.
+          </p>
+          <div class="action__btns">
+            <a href="https://www.linkedin.com/in/sivaprasathc/"><img src="linkedin.png" alt="" id="linkedin"></a>
+            <a href="https://github.com/SivaprasathC/"><img src="github.png" alt="" id="git"></a>
+            <a href="https://www.instagram.com/sivaprasath_ig/"><img src="instagram.png" alt="" id="insta"></a>
+            <a href="https://www.youtube.com/channel/UCx3QuyEPPocpvTRzO2X2kLg"><img src="youtube.png" alt="" id="yt"></a>
+            <a href="https://t.me/Sivaprasath_tg"><img src="telegram.png" alt="" id="tg"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="profile.png" alt="profile" />
+        </div>
+      </div>
+      <div class="aboutdiv">
+        <section id="about">
+          <h1>About Me</h1>
+          <br>
+          <div><p>I am Sivaprasath C from the town of Dharapuram. I did my schooling in Bharathi vidhyalaya in Mulanur and i scored good marks and joined ECE in Kumaraguru College of technology.  I have a lot of interest in Computer and Electronics. When I was at school, I started learning about technology, especially about the computer. Later I found ways to fix some basic issues on desktop or laptop. I feel like resolving hardware problems are not like a techy guy.Recently, I am about to explore a lot behind physical technical issues. I was admired my the software which controls the hardware. So i started to learn about Embedded Systems.</p>
+        </section>
+      </div>
+      <div class="projectsdiv">
+        <section id="projects">
+          <h1>Projects</h1>
+          
+          <h3>1.Emergency SOS APP </h3>
+          <br>
+          <div><p>The app works by allowing users to preset emergency contacts and activate an emergency alert feature with a single tap. When triggered, the app automatically sends an SMS to the preset emergency contacts, containing crucial information such as the user's live location, precise address, and a link to visual/audio evidence(automatically captured by pressing the button) stored securely on a cloud platform like Google Drive.</p></div>
+          <img src="emergency.jpeg" alt="" id="emergency">
+          <br>
+          <h3>2.Laser Security System with IoT alerts</h3>
+          <p>First, the security system will be connected to the home Wi-Fi. If the laser falling on the LDR is blocked by any person, the resistance of the LDR will increase, sending '1' as input to the ESP8266. This will trigger the LED and buzzer to turn on, and a message "Warning! Someone is entering the house!" will be sent to the user's Telegram.</p>
+          <div class=" ytvid"><iframe width="350" height="200"  src="https://www.youtube.com/embed/dtCVDU9Chg8?si=6relbd4r2y0EKDpd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <h4 id="working">Working Video</h4>
+        </section>
+        <br>
+        <div class="hobbiesdiv">
+          <section id="hobbies">
+            <h1>Hobbies and Interests</h1>
+            <p>My hobbies are mainly surfing internet and learning new things and playing games. I am also an aviation lover. I love to track the flight's path and its history. I am also a crypto currency trader and took my first trade at my age of 14 and made some profits within a span of 4-5 years. I also have an Youtube channel named "CryptoNibba" in youtube and i uploaded some videos there. I am also a an economic enthusiast.</p>
+            <div class="tab"><h3>List Of Games I Play</h3>
+              <br>
+            <div class="table">
+              <table>
+                <tr>
+                  <th>Game Names</th>
+                </tr>
+                <tr>
+                  <td>Stumble Guys</td>
+                </tr>
+                <tr>
+                  <td>Hide online</td>
+                </tr>
+                <tr>
+                  <td>Among Us</td>
+                </tr>
+                <tr>
+                  <td>Battleground Games</td>
+                </tr>
+              </table>
+              <br>
+             </div>
+            </div>
+           
+          
+
+          </section>
+
+        </div>
+      </div>
+    </div>
+    <div class="feedback">
+      <h4>Do you have any feedback? Do not hesitate, Click below</h4>
+      <a href="feedback.html"><button class="button">Feedback</button></a>
+    </div> 
+  </body>
+</html>
