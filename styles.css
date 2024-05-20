@@ -384,7 +384,7 @@ div.feedbackpage h3{
   margin-right: auto;
   align-content: center;
 }
-input[type=text],input[type=mail], select, textarea {
+input[type=text],input[type=email], select, textarea {
   display: flex;
   width: 100%;
   padding: 12px;
