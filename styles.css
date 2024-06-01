@@ -253,7 +253,7 @@ ul li a:hover {
 }
 .aboutdiv
 {
-  margin-left:45px;
+  margin-left:10px;
   min-height: 35vh;
   max-width: var(--max-width);
   font-size: 22px;
