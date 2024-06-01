@@ -277,7 +277,7 @@ div.projectsdiv h1,h3,h4{
   color:var(--text-dark) ;
 }
 .projectsdiv{
-  margin-left:45px;
+  margin-left:10px;
   min-height: 35vh;
   max-width:100%;
   font-size: 22px;
