@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="faviconp.png">
+    <link rel="icon" type="image/x-icon" href="./assets/faviconp.png">
     <title>Sivaprasath Portfolio</title>
   </head>
   <body>
@@ -25,7 +25,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#hobbies">Hobbies & Interests</a></li>
         </ul>
-        <img src="moon.png" id="icon">
+        <img src="./assets/moon.png" id="icon">
       </div>
       <div class="extra">
         <label>Today's Date: </label>
@@ -40,8 +40,8 @@
           icon.onclick=function(){
             document.body.classList.toggle("dark-theme");
             if(document.body.classList.contains("dark-theme")){
-              icon.src="sun.png";
-            }else{icon.src="moon.png";
+              icon.src="./assets/sun.png";
+            }else{icon.src="./assets/moon.png";
 
             }
             }
@@ -61,34 +61,57 @@
              I am an undergraduate student in Electronics and Communication Engineering. I am a Tech enthusiast with a focus on cloud computing, app/web development, and Arduino, IoT and embedded systems. I love turning ideas into reality and thrive on challenges.
           </p>
           <div class="action__btns">
-            <a href="https://www.linkedin.com/in/sivaprasathc/"><img src="linkedin.png" alt="" id="linkedin"></a>
-            <a href="https://github.com/SivaprasathC/"><img src="github.png" alt="" id="git"></a>
-            <a href="https://www.instagram.com/sivaprasath_ig/"><img src="instagram.png" alt="" id="insta"></a>
-            <a href="https://www.youtube.com/channel/UCx3QuyEPPocpvTRzO2X2kLg"><img src="youtube.png" alt="" id="yt"></a>
-            <a href="https://t.me/Sivaprasath_tg"><img src="telegram.png" alt="" id="tg"></a>
+            <a href="https://www.linkedin.com/in/sivaprasathc/"><img src="./assets/linkedin.png" alt="" id="linkedin"></a>
+            <a href="https://github.com/SivaprasathC/"><img src="./assets/github.png" alt="" id="git"></a>
+            <a href="https://t.me/Sivaprasath_tg"><img src="./assets/telegram.png" alt="" id="tg"></a>
           </div>
         </div>
         <div class="image">
-          <img src="profile.png" alt="profile" />
+          <img src="./assets/profile.png" alt="profile" />
         </div>
       </div>
       <div class="aboutdiv">
         <section id="about">
           <h1>About Me</h1>
           <br>
-          <div><p>I am Sivaprasath C from the town of Dharapuram. I did my schooling in Bharathi vidhyalaya in Mulanur and i scored good marks and joined ECE in Kumaraguru College of technology.  I have a lot of interest in Computer and Electronics. When I was at school, I started learning about technology, especially about the computer. Later I found ways to fix some basic issues on desktop or laptop. I feel like resolving hardware problems are not like a techy guy.Recently, I am about to explore a lot behind physical technical issues. I was admired my the software which controls the hardware. So i started to learn about Embedded Systems.</p>
+          <div><p>I am Sivaprasath C, currently pursuing Electronics and Communication Engineering at Kumaraguru College of Technology, Coimbatore. I am passionate about Web and App Development and have a strong interest in Cloud Computing and Embedded Systems.</p>
         </section>
       </div>
       <div class="projectsdiv">
         <section id="projects">
-          <h1>Projects</h1>
-          
-          <h3>1.Emergency SOS APP </h3>
+          <h1>Projects and Mini Projects</h1>
+          <h3>1.FullStack ToDo App<a href="https://todoplannersite.netlify.app/"> Live Link</a><a href="https://github.com/SivaprasathC/TodoAppExpress"> Github</a></h3>
+          <br>
+          <div><p>Developed a Full Stack ToDo App with CRUD operations with HTML,CSS for front End, Express for backend, MongoDb for database and JWT for authentication.</p></div>
+          <br>
+          <img src="./assets/todo.png" alt="todo" style="height: 250px; width: 350px;" id="liveimg">
+          <h3>2.Snake and Ladders Multiplayer<a href="https://snakeandladderio.netlify.app/"> Live Link</a><a href="https://github.com/SivaprasathC/SnakesandLaddersKIC"> Github</a></h3>
+          <br>
+          <div><p>Developed a Snake and ladder game for two players with storage of scores in local storage and Interactive audio in the background with HTML,CSS and JavaScript.</p></div>
+          <br>
+          <img src="./assets/Snkl.png" alt="snkl" style="height: 200px; width: 320px;" id="liveimg">
+          <h3>3.Openday Website<a href="https://opendaytask.netlify.app/"> Live Link</a><a href="https://github.com/SivaprasathC/OpenDayApiWebTask"> Github</a></h3>
+          <br>
+          <div><p>Created a Website for Openday With 1000 Random Departments by the API provided by Iqube With search functionality, pagination and
+            map plot using leaflet.</p></div>
+          <br>
+          <img src="./assets/opday.png" alt="opday" style="height: 270px; width: 400px;" id="liveimg">
+          <h3>4.ToDo App</h3>
+          <br>
+          <div><p>Built a Notes Taking app with React native with CRUD operations and Search feature.</p></div>
+          <br>
+          <img src="./assets/todo.jpg" alt="todo" style="height: 350px; width: 200px;" id="liveimg">
+          <h3>5.Weather App With Authentication<a href="https://weatherauth.netlify.app/"> Live Link</a><a href="https://github.com/SivaprasathC/SimpleWeatherAppWithAuthentication"> Github</a></h3>
+          <br>
+          <div><p>Created a simple Weather app with free Weather API with FireBase authentication with login and register page.</p></div>
+          <br>
+          <img src="./assets/weather.png" alt="weather" style="height: 250px; width: 350px;" id="liveimg">
+          <h3>6.Emergency SOS APP </h3>
           <br>
           <div><p>The app works by allowing users to preset emergency contacts and activate an emergency alert feature with a single tap. When triggered, the app automatically sends an SMS to the preset emergency contacts, containing crucial information such as the user's live location, precise address, and a link to visual/audio evidence(automatically captured by pressing the button) stored securely on a cloud platform like Google Drive.</p></div>
-          <img src="emergency.jpeg" alt="" id="emergency">
+          <img src="./assets/emergency.jpeg" alt="" id="emergency">
           <br>
-          <h3>2.Laser Security System with IoT alerts</h3>
+          <h3>7.Laser Security System with IoT alerts</h3>
           <p>First, the security system will be connected to the home Wi-Fi. If the laser falling on the LDR is blocked by any person, the resistance of the LDR will increase, sending '1' as input to the ESP8266. This will trigger the LED and buzzer to turn on, and a message "Warning! Someone is entering the house!" will be sent to the user's Telegram.</p>
           <div class=" ytvid"><iframe width="350" height="200"  src="https://www.youtube.com/embed/dtCVDU9Chg8?si=6relbd4r2y0EKDpd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
           <h4 id="working">Working Video</h4>
@@ -97,28 +120,40 @@
         <div class="hobbiesdiv">
           <section id="hobbies">
             <h1>Hobbies and Interests</h1>
-            <p>My hobbies are mainly surfing internet and learning new things and playing games. I am also an aviation lover. I love to track the flight's path and its history. I am also a crypto currency trader and took my first trade at my age of 14 and made some profits within a span of 4-5 years. I also have an Youtube channel named "CryptoNibba" in youtube and i uploaded some videos there. I am also a an economic enthusiast.</p>
-            <div class="tab"><h3>List Of Games I Play</h3>
+            <p>My hobbies are mainly surfing internet and learning new technologies. I am also an aviation lover. I love to track the flight's history. I have some knowledge on CryptoCurrency.</p>
+            <div class="tab"><h3>List of Tools and Technologies Learned and Used</h3>
               <br>
             <div class="table">
               <table>
                 <tr>
-                  <th>Game Names</th>
+                  <th>Git and GitHub</th>
                 </tr>
                 <tr>
-                  <td>Stumble Guys</td>
+                  <td>HTML,CSS,JavaScript</td>
                 </tr>
                 <tr>
-                  <td>Hide online</td>
+                <tr>
+                  <td>Node.Js</td>
                 </tr>
                 <tr>
-                  <td>Among Us</td>
+                  <td>Express</td>
                 </tr>
                 <tr>
-                  <td>Battleground Games</td>
+                  <td>MongoDb</td>
                 </tr>
                 <tr>
-                  <td>RFS</td>
+                  <td>Netlify,Zoho Catalyst</td>
+                </tr>
+                <tr>
+                  <td>Postman</td>
+                </tr>
+                  <td>React.js and Native</td>
+                </tr>
+                <tr>
+                  <td>FireBase</td>
+                </tr>
+                <tr>
+                  <td>JWT</td>
                 </tr>
               </table>
               <br>

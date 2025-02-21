@@ -413,3 +413,8 @@ input[type=text],input[type=email], select, textarea {
   margin-left:0px;
   cursor: pointer;
 }
+#liveimg{
+  margin-left: 30%;
+  min-height:40%;
+  max-width:40%;
+}
