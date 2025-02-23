@@ -418,3 +418,12 @@ input[type=text],input[type=email], select, textarea {
   min-height:40%;
   max-width:40%;
 }
+#Resume{
+  border-width: 3px;
+  border-radius: 30px;
+  padding: 0px;
+  height: fit-content;
+  border-color: black;
+  background-color: white;
+  font-size: 20px;
+}
