@@ -424,6 +424,6 @@ input[type=text],input[type=email], select, textarea {
   padding: 0px;
   height: fit-content;
   border-color: black;
-  background-color: white;
+  background-color: #faf5ff;
   font-size: 20px;
 }
